@@ -1,14 +1,4 @@
-marks={
-    'varun' : 10,
-    'arun' : 20,
-    'vivek' : 30,
-    'anoop' : 15
-
-}
-stud={
-    'name' : 'vivek',
-    'age' : 20,
-    'course' : 'aiml'
-}
-stud.update(marks)
-print(stud)
+age=int(input("Enter age : "))
+print("age :",age)
+val=int(input("Enter 1 - > valid , 0 - > not valid "))
+print("True if eligible : ",age>=18 and val==1)
